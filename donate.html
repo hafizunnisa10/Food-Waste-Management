@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Food Leftovers</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="login.html">Donation Details</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Donate Your Leftovers</h1>
+        <p>Please fill out the form below to donate food leftovers from your restaurant.</p>
+        <form id="donationForm" action="di.php">
+            <label for="restaurantName">Restaurant Name:</label>
+            <input type="text" id="restaurantName" required>
+
+            <label for="foodType">Type of Food:</label>
+            <input type="text" id="foodType" required>
+
+            <label for="quantity">Quantity (in kg):</label>
+            <input type="number" id="quantity" required>
+
+            <label for="contactEmail">Contact Email:</label>
+            <input type="email" id="contactEmail" required>
+
+            <button type="submit">Submit Donation</button>
+        </form>
+    </main>
+
+   
+</body>
+</html>

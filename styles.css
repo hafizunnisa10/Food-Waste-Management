@@ -1,0 +1,83 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("images.webp");
+    background-size: cover;
+   
+}
+
+header {
+    background-color: rgb(215, 211, 207);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: rgb(74, 8, 8);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(248, 239, 239);
+    box-shadow: 0px 4px 8px rgba(91, 97, 85, 0.1);
+    border-radius: 8px;
+}
+
+
+h1 {
+    color: #333;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+form label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form input[type="text"], form input[type="number"], form input[type="email"] {
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 12px 20px;
+    background-color: #2f2813;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2f2813;
+}
+
